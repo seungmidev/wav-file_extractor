@@ -1,0 +1,25 @@
+@import url('./reset.css');
+
+:root {
+  /* color */
+  --light-color: #fff;
+  --primary-color: #111342;
+  --secondary-color: #222633;
+  --tertiary-color: #363946;
+
+  /* font size */
+  --large-font: 22px;
+  --medium-font: 18px;
+  --small-font: 14px;
+  --micro-ont: 12px;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}

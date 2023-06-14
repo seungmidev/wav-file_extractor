@@ -1,0 +1,35 @@
+@import url('./common.css');
+
+#wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  min-width: 600px;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.main__title {
+  padding: 15px 0 10px;
+  font-size: var(--large-font);
+  font-weight: 700;
+}
+.main__drop-zone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  min-height: 150px;
+  background-color: var(--primary-color);
+}
+.main__results {
+  display: none;
+}
+.main__results--active {
+  display: block;
+}
