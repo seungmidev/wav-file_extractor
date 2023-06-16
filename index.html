@@ -11,13 +11,28 @@
 </head>
   <div id="wrap">
     <main class="main">
-      <h1 class="hidden">WAV FILE EXTRACTOR</h1>
-      <div class="main__layout main__exteractor">
-        <h2 class="main__title">WAV FILE EXTRACTOR</h2>
-        <div class="main__drop-zone">DRAG FILE</div>
+      <h1 class="hidden">WAV File Parser</h1>
+      <div class="exteractor">
+        <h2 class="title">WAV FILE EXTRACTOR</h2>
+        <div id="dropZone" class="drop-zone">DRAG FILE</div>
       </div>
-      <div class="main__layout main__results">
-        <h2 class="main__title">RESULTS</h2>
+      <div class="results">
+        <h2 class="title">RESULTS</h2>
+        <table id="resultsTable" class="results__table">
+          <caption class="hidden">WAV FILE HEADER INFO</caption>
+          <colgroup>
+            <col width="50%">
+            <col width="50%">
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col">HEADER</th>
+              <th scope="col">VALUE</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
       </div>
     </main>
   </div>
